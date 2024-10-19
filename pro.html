@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Fashion Design Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #00FF9C;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        span.cart-it {
+            width: 200px;
+            /* color: white; */
+            position: absolute;
+            top: 20px;
+            right: 60px;
+            margin-top: 3rem;
+
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .item {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Unique Styles For All</h1>
+        <span class="cart-image"><i class='fas fa-shopping-basket'></i></span>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my fashion design portfolio! I am a passionate designer with a love for creating unique styles
+                that blend contemporary trends with timeless elegance.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Work</h2>
+            <div class="portfolio">
+                <div class="item">
+                    <img src="1.jpg" alt="Design 1">
+                    <h3>Collection 1</h3>
+                    <p>A stylish blend of comfort and elegance.</p>
+                </div>
+                <div class="item">
+                    <img src="bubu.jpg" alt="Design 2">
+                    <h3>Collection 2</h3>
+                    <p>Bold colors and innovative designs.</p>
+                </div>
+                <div class="item">
+                    <img src="adire.jpg" alt="Design 3">
+                    <h3>Collection 3</h3>
+                    <p>Chic styles for the modern woman.</p>
+                </div>
+                <div class="item">
+                    <img src="trend.jpeg" alt="Design 4">
+                    <h3>Collection 4</h3>
+                    <p>Timeless pieces for every occasion.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <table>
+            <form>
+
+                <label for="firstname"> Firstname</label>
+                <input type="text" name="firstname" id="firstname" required>
+                <label for="lastname"> lastname</label>
+                <input type="text" name="lastname" id="lastname" required>
+                <label for="address"> address</label>
+                <input type="text" name="address" id="address" required>
+                <label for="number"> number</label>
+                <input type="number" name="number" id="number" required>
+            </form>
+        </table>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you're interested in collaborating or have any questions, feel free to reach out!</p>
+            <p>Email: <a href="abiodunzainab21@gmail.com">gmail.com</a></p>
+            <p>Follow me on social media:</p>
+            <p>
+                <a href="https://instagram.com/yourprofile">Instagram</a>
+                <a href="https://twitter.com/yourprofile">Twitter</a>
+            </p>
+        </section>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Fashion Design Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
